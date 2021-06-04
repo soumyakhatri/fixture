@@ -1,5 +1,6 @@
 body{
     font-family: 'Nunito Sans', sans-serif;
+    width: 100vw;
 }
 
 h2{
@@ -24,7 +25,9 @@ button{
 /* Navbar */
 
 nav{
-    background-color: #fff;;
+    background-color: #fff;
+    padding-right:8%;
+    padding-left: 8%;;
 }
 
 .nav-right{
@@ -34,10 +37,39 @@ nav{
 .around-icon{
     background-color: #F4F7FA;
     border-radius: 15px;;
-    padding: 10px;
+    padding: 8px;
+    display: inline-block;
 }
 
 .nav-icon-2{
     width: 36px;
     height: 34px;
+}
+
+nav .p1{
+    color: #FF7F00;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+nav .p2{
+    color: #979797;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.dropdown{
+}
+
+.dropdown-menu{
+    position: relative;
+}
+
+
+.dropdown-menu[data-bs-popper]{
+    right: 0;
 }

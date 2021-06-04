@@ -20,7 +20,7 @@
   <body>
     
     <!-- Nav -->
-    <nav class="navbar navbar-expand-lg navbar-light navigation">
+    <nav class="navbar navbar-expand-lg navbar-light navigation py-3">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,15 +28,25 @@
         </button>
         <div class="collapse navbar-collapse nav-right" id="navbarSupportedContent">
           <ul class="navbar-nav mr-0 mb-2 mb-lg-0">
-            <li class="nav-item">
+            <li class="nav-item me-3">
               <a class="nav-link active" aria-current="page" href="#"><div class="around-icon"><img  src="./images/icn.png" alt="icon"></div></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item me-3">
               <a class="nav-link" href="#"><div class="around-icon"><img class="nav-icon-2" src="./images/image 4.svg" alt="icon"></div></a>
+            </li>
+            
+            <li class="nav-item me-3">
+              <div class="d-flex flex-row">
+                <div class="me-2 d-flex flex-column align-items-end justify-content-center">
+                  <p class="p1 mb-0">David Morse</p>
+                  <p class="p2 mb-0">Admin</p>
+                </div>
+                <div><img src="./images/profile-pic.png" alt=""></div>
+              </div>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+                <img src="./images/profile-menu-icn.png" alt="dropdown">
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -44,9 +54,16 @@
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li> 
+              </ul>
+
+              <!-- <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
+                <img src="./images/profile-menu-icn.png" alt="dropdown">
+              </button> -->
+              
+                
+             
             </li>
           </ul>
         
