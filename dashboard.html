@@ -20,7 +20,9 @@
   <body>
     
     <!-- Nav -->
-    <nav class="navbar navbar-expand-lg navbar-light navigation py-3">
+
+    <!-- navbar top -->
+    <nav class="navbar navbar-expand-lg navbar-light navigation pt-5 py-3">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,19 +59,53 @@
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Action</a></li> 
               </ul>
-
-              <!-- <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
-                <img src="./images/profile-menu-icn.png" alt="dropdown">
-              </button> -->
-              
-                
-             
             </li>
           </ul>
         
         </div>
       </div>
     </nav>
+
+    <!-- navbar bottom -->
+
+    <nav class="mt-4 mb-4 navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid py-0">
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="p-g nav-link" aria-current="page" href="#">My Sessions</a>
+            </li>
+            <li class="nav-item">
+              <a class="p-g nav-link" href="#">Scheduled Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="p-g nav-link" href="#">Work Flow</a>
+            </li>
+            
+          </ul>
+          <div class="d-flex">
+            <button type="button" class="btn-create btn btn-success">+ Create</button>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main -->
+
+    <main>
+      <div class="container">
+        <div class="left"></div>
+        <div class="calender"></div>
+        <div class="bottom-left"></div>
+        <div class="bottom-right"></div>
+      </div>
+    </main>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
