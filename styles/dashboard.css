@@ -82,6 +82,8 @@ nav{
     background-color: #F4F7FA;
     border-radius: 15px;;
     padding: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
     display: inline-block;
 }
 
@@ -107,17 +109,21 @@ nav .p2{
 }
 
 
+/* Navbar Bottom */
 
-
-
+.nav-2{
+    padding: 3% 9%;
+}
 .p-g{
     font-size: 20px;
     margin-right: 2rem;
+    text-decoration: underline;
 }
 
 .p-g:hover, .p-g:active, .p-g:visited, .p-g:focus{
     /* Fallback: Set a background color. */
     background-color: #fff;
+    
     
     /* Create the gradient. */
     background-image: linear-gradient(90deg, rgba(250,124,1,1) 50%, rgba(63,42,215,1) 100%)!important;
@@ -145,6 +151,22 @@ nav .p2{
     border-color: #54C470;
 }
 
+
+@media (max-width:575px) {
+    .p-g{
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    .btn-create{
+        font-size: 14px!important;
+    }
+
+    .navbar-brand img{
+        width: 75px;
+        height: 37.5px;
+    }
+}
 
 /* Main */
 
@@ -178,6 +200,7 @@ main .left{
     border-top-right-radius: 25px;
 
 }
+
 
 .left-bottom{
     background-color: #fff;
@@ -267,6 +290,14 @@ p.user-name{
     padding-right: 30px;
 }
 
+
+.team-meet-img{
+    overflow: hidden;
+}
+.team-meet-img img{
+    width: 100%;
+}
+
 /* Bottom Left */
 
 .bottom-left{
@@ -346,9 +377,6 @@ p.user-name{
 
 @media (max-width:575px) {
 
-    nav{
-        display: none!important;
-    }
     .grid-main{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, auto);

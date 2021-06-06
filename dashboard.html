@@ -25,6 +25,9 @@
   <!-- FontAwesome -->
   <script src="https://kit.fontawesome.com/2f2ce22062.js" crossorigin="anonymous"></script>
 
+  <!-- Flat Icons -->
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
   <title>Fixture</title>
 </head>
 
@@ -33,87 +36,42 @@
   <!-- Nav -->
 
   <!-- navbar top -->
-  <nav class="navbar navbar-expand-lg navbar-light navigation pt-5 py-3">
-    <div class="container-fluid">
+  <nav class="navbar pt-5 py-3">
+    <div class="container-fluid p-0">
       <a class="navbar-brand" href="#"><img src="./images/logo1.png" alt="logo"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse nav-right" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-0 mb-2 mb-lg-0">
-          <li class="nav-item me-3">
-            <a class="nav-link active" aria-current="page" href="#">
-              <div class="around-icon"><img src="./images/icn.png" alt="icon"></div>
-            </a>
-          </li>
-          <li class="nav-item me-3">
-            <a class="nav-link" href="#">
-              <div class="around-icon"><img class="nav-icon-2" src="./images/image 4.svg" alt="icon"></div>
-            </a>
-          </li>
-
-          <li class="nav-item me-3">
-            <div class="d-flex flex-row">
-              <div class="me-2 d-flex flex-column align-items-end justify-content-center">
-                <p class="p1 mb-0">David Morse</p>
-                <p class="p2 mb-0">Admin</p>
-              </div>
-              <div><img src="./images/profile-pic.png" alt=""></div>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              <img src="./images/profile-menu-icn.png" alt="dropdown">
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-            </ul>
-          </li>
-        </ul>
-
+      <a class=" ms-auto d-none d-md-block" aria-current="page" href="#">
+        <div class="around-icon"><img src="./images/icn.png" alt="icon"></div>
+      </a>
+      <a class=" ms-md-1 ms-auto" href="#">
+        <div class="around-icon"><img class="nav-icon-2" src="./images/image 4.svg" alt="icon"></div>
+      </a>
+      <div class="d-flex flex-row align-items-center">
+        <div class="d-none d-md-block mx-3 d-flex flex-column align-items-end justify-content-center">
+          <p class="p1 mb-0">David Morse</p>
+          <p class="p2 mb-0">Admin</p>
+        </div>
+        <div class="ms-2">
+          <img src="./images/profile-pic.png" alt="">
+        </div>
+        <div><img src="./images/profile-menu-icn.png" alt="burger icon"></div>
+        
       </div>
     </div>
   </nav>
 
   <!-- navbar bottom -->
 
-  <nav class="mt-4 mb-4 navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid py-0">
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="p-g nav-link" aria-current="page" href="#">My Sessions</a>
-          </li>
-          <li class="nav-item">
-            <a class="p-g nav-link" href="#">Scheduled Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="p-g nav-link" href="#">Work Flow</a>
-          </li>
+  <div class="nav-2 d-flex">
+    <a class="p-g" aria-current="page" href="#">My Sessions</a>
+    <a class="p-g href=" #">Scheduled Events</a>
+    <a class="p-g d-none d-md-block" href="#">Work Flow</a>
+    <button class="ms-auto btn-create">+ Create</button>
+  </div>
 
-        </ul>
-        <div class="d-flex">
-          <button type="button" class="btn-create btn btn-success">+ Create</button>
-        </div>
 
-      </div>
-    </div>
-  </nav>
+
+
 
   <!-- Main -->
 
@@ -130,7 +88,7 @@
             <p class="user-name text-center text-sm-start lh-base pb-3"><span>David's Dashboard</span></p>
           </div>
           <div class="team-meet-img d-none d-sm-block">
-            <img  class=""src="./images/Illus.png" alt="team meeting">
+            <img class="" src="./images/Illus.png" alt="team meeting">
           </div>
         </div>
 
@@ -166,8 +124,8 @@
         </div>
       </div>
       <div class="calender">
-        <button class=" btn btn-outline-primary cal-btn"><i class="c-blue far fa-calendar-alt fa-lg me-2"></i>CALENDER <i
-            class="c-blue fas fa-chevron-down ps-2"></i></button>
+        <button class=" btn btn-outline-primary cal-btn"><i class="c-blue far fa-calendar-alt fa-lg me-2"></i>CALENDER
+          <i class="c-blue fas fa-chevron-down ps-2"></i></button>
       </div>
 
       <!-- Bottom Left -->
@@ -184,7 +142,8 @@
           </div>
 
           <div class="mb-2">
-            <img class="g-meet-img" src="./images/gmeet-icn.png" alt=""><span type="button" class="fs-14">Google Meet Conference</span>
+            <img class="g-meet-img" src="./images/gmeet-icn.png" alt=""><span type="button" class="fs-14">Google Meet
+              Conference</span>
           </div>
 
 
@@ -196,12 +155,13 @@
 
         <div class="d-flex px-4 align-items-center">
           <div type="button" class="d-flex copy-link">
-            <i class="c-blue far fa-lg fa-clone copy-link-icn"></i><p class="c-blue mb-0 ms-2"> Copy Link</p>
-          </div>   
+            <i class="c-blue far fa-lg fa-clone copy-link-icn"></i>
+            <p class="c-blue mb-0 ms-2"> Copy Link</p>
+          </div>
           <i class="c-blue ms-auto fa-lg fas fa-share-square"></i>
         </div>
 
-        
+
       </div>
 
       <!-- Bottom Right -->
@@ -218,7 +178,8 @@
           </div>
 
           <div class="mb-2">
-            <img class="g-meet-img" src="./images/gmeet-icn.png" alt=""><span type="button"  class="fs-14">Google Meet Conference</span>
+            <img class="g-meet-img" src="./images/gmeet-icn.png" alt=""><span type="button" class="fs-14">Google Meet
+              Conference</span>
           </div>
 
 
@@ -230,12 +191,13 @@
 
         <div class="d-flex px-4 align-items-center">
           <div type="button" class="d-flex copy-link">
-            <i class="c-blue far fa-lg fa-clone copy-link-icn"></i><p class="c-blue mb-0 ms-2"> Copy Link</p>
-          </div>   
+            <i class="c-blue far fa-lg fa-clone copy-link-icn"></i>
+            <p class="c-blue mb-0 ms-2"> Copy Link</p>
+          </div>
           <i class="c-blue ms-auto fa-lg fas fa-share-square"></i>
         </div>
 
-        
+
       </div>
     </div>
   </main>
