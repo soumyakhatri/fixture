@@ -18,6 +18,22 @@ h3{
     color: #FF7F00;
 }
 
+h4{
+
+}
+
+.fw-700{
+    font-weight: 700px;
+}
+
+.fs-18{
+    font-size: 18px;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
 button{
     border-radius: 10px!important;
     padding: 5px 10px;
@@ -25,7 +41,17 @@ button{
     border: none;
     font-size: 20px!important;
 }
+.c-grey{
+    color:#979797;
+}
 
+.c-orange{
+    color: #FF7F00;
+}
+
+.c-blue{
+    color: #0D2CFF;
+}
 /* Navbar */
 
 nav{
@@ -110,4 +136,155 @@ nav .p2{
 
 main{
     background-color: #F2F2F2;
+}
+
+.grid-main{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 3fr 5fr;
+    border-width: 1px;
+    padding: 5% 9%;
+    grid-column-gap: 40px;
+}
+
+main .left{
+    grid-column: 1/2;
+    grid-row: 1/-1;
+    border-width: 3px;
+    border-radius: 25px;
+    border-color: #fff;
+    border-style: solid;
+    background-color: #fff;
+}
+
+.left-top{
+    background-color: #E8EBFA;
+    padding: 0 0 0 30px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+}
+
+.left-bottom{
+    background-color: #fff;
+    width: 100%;
+}
+
+main .calender{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    border-width: 1px;
+    justify-self: end;
+}
+
+main .bottom-left{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-width: 1px;
+}
+
+main .bottom-right{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    border-width: 1px;
+}
+
+.cal-btn{
+    color: #0D2CFF;
+    border-color: #0D2CFF;
+    border-radius: 20px!important;
+    border-style: solid;
+    font-size: 14px!important;
+    padding: 10px 18px;
+    font-weight: 600;
+}
+
+i {
+    color: #0D2CFF;
+}
+
+.cal-btn:hover i{
+    color: #fff;
+}
+
+p.user-name{
+    color: #001DB0;
+    font-size: 18px;
+}
+
+.user-img{
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #fff;
+    border-width: 4px;
+    height: 117px;
+    width: 117px;
+    overflow: hidden;
+}
+
+.user-img img{
+    width: 100%;
+    height: auto;
+}
+
+.p-comp-cat{
+    color: #979797;
+}
+
+.view-insights{
+    background: rgb(227,197,0);
+    background: linear-gradient(125deg, rgba(227,197,0,1) 0%, rgba(248,122,2,1) 100%);
+    font-size: 18px;
+    /* padding: 10px 20px; */
+}
+
+.left-bottom-left p{
+    font-size: 18px;
+}
+
+/* Bottom Left */
+
+.bottom-left{
+    background-color: #fff;
+    border-radius: 10px;
+    border-top-style:none;
+    border-bottom-color: #F19502;
+    border-bottom-style: solid;
+    border-width: 10px!important ;
+    height: 272px;
+    align-self: end ;
+}
+
+.icn-sz{
+    width: 33px;
+    height: 33px;
+}
+
+.copy-img{
+    width: 28px;
+    height: 28px;
+}
+
+.hr{
+    height: 1px;
+    background-color: #D8D8D8;
+}
+
+.g-meet-img{
+    position: relative;
+    left: -5px;
+}
+
+/* Bottom Right */
+
+.bottom-right{
+    align-self: end;
+    background-color: #fff;
+    border-radius: 10px;
+    border-top-style:none;
+    border-bottom-color: #F19502;
+    border-bottom-style: solid;
+    border-width: 10px!important ;
+    height: 272px;
+    align-self: end ;
 }

@@ -1,121 +1,254 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,800;0,900;1,200&display=swap" rel="stylesheet">
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Internal Style -->
-    <link rel="stylesheet" href="./styles/dashboard.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,800;0,900;1,200&display=swap"
+    rel="stylesheet">
 
-    <title>Fixture</title>
-  </head>
-  <body>
-    
-    <!-- Nav -->
+  <!-- Google Fonts Icons  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=content_copy"> -->
 
-    <!-- navbar top -->
-    <nav class="navbar navbar-expand-lg navbar-light navigation pt-5 py-3">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse nav-right" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-0 mb-2 mb-lg-0">
-            <li class="nav-item me-3">
-              <a class="nav-link active" aria-current="page" href="#"><div class="around-icon"><img  src="./images/icn.png" alt="icon"></div></a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#"><div class="around-icon"><img class="nav-icon-2" src="./images/image 4.svg" alt="icon"></div></a>
-            </li>
-            
-            <li class="nav-item me-3">
-              <div class="d-flex flex-row">
-                <div class="me-2 d-flex flex-column align-items-end justify-content-center">
-                  <p class="p1 mb-0">David Morse</p>
-                  <p class="p2 mb-0">Admin</p>
-                </div>
-                <div><img src="./images/profile-pic.png" alt=""></div>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <!-- Internal Style -->
+  <link rel="stylesheet" href="./styles/dashboard.css">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/2f2ce22062.js" crossorigin="anonymous"></script>
+
+  <title>Fixture</title>
+</head>
+
+<body>
+
+  <!-- Nav -->
+
+  <!-- navbar top -->
+  <nav class="navbar navbar-expand-lg navbar-light navigation pt-5 py-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse nav-right" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-0 mb-2 mb-lg-0">
+          <li class="nav-item me-3">
+            <a class="nav-link active" aria-current="page" href="#">
+              <div class="around-icon"><img src="./images/icn.png" alt="icon"></div>
+            </a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#">
+              <div class="around-icon"><img class="nav-icon-2" src="./images/image 4.svg" alt="icon"></div>
+            </a>
+          </li>
+
+          <li class="nav-item me-3">
+            <div class="d-flex flex-row">
+              <div class="me-2 d-flex flex-column align-items-end justify-content-center">
+                <p class="p1 mb-0">David Morse</p>
+                <p class="p2 mb-0">Admin</p>
               </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="./images/profile-menu-icn.png" alt="dropdown">
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li> 
-              </ul>
-            </li>
-          </ul>
-        
-        </div>
+              <div><img src="./images/profile-pic.png" alt=""></div>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="./images/profile-menu-icn.png" alt="dropdown">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+            </ul>
+          </li>
+        </ul>
+
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- navbar bottom -->
+  <!-- navbar bottom -->
 
-    <nav class="mt-4 mb-4 navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid py-0">
-  
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="p-g nav-link" aria-current="page" href="#">My Sessions</a>
-            </li>
-            <li class="nav-item">
-              <a class="p-g nav-link" href="#">Scheduled Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="p-g nav-link" href="#">Work Flow</a>
-            </li>
-            
-          </ul>
-          <div class="d-flex">
-            <button type="button" class="btn-create btn btn-success">+ Create</button>
+  <nav class="mt-4 mb-4 navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid py-0">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="p-g nav-link" aria-current="page" href="#">My Sessions</a>
+          </li>
+          <li class="nav-item">
+            <a class="p-g nav-link" href="#">Scheduled Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="p-g nav-link" href="#">Work Flow</a>
+          </li>
+
+        </ul>
+        <div class="d-flex">
+          <button type="button" class="btn-create btn btn-success">+ Create</button>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main -->
+
+  <main>
+    <div class="grid-main">
+
+      <!-- left -->
+      <div class="left pb-2">
+
+        <!-- left top -->
+        <div class="left-top d-flex justify-content-between">
+          <div class="d-flex flex-column pt-5">
+            <h2 class="mb-0">Welcome Back!</h2>
+            <p class="user-name"><span>David's Dashboard</span></p>
+          </div>
+          <div class="">
+            <img src="./images/Illus.png" alt="team meeting">
+          </div>
+        </div>
+
+        <!-- left bottom -->
+
+        <div class="left-bottom d-flex">
+          <!-- left bottom left -->
+          <div class="left-bottom-left d-flex flex-column px-3 py-3">
+            <div class="user-img mb-5">
+              <img src="./images/profile-pic.png" alt="user">
+            </div>
+
+            <p class="p-comp-name fw-bold">Beauty Box Salon</p>
+            <p class="p-comp-cat">Parlour/Grooming</p>
           </div>
 
+          <!-- left bottom right -->
+          <div class="left-bottom-right d-flex flex-column py-4 px-5">
+            <div class="d-flex justify-content-between">
+              <div class="d-flex flex-column">
+                <p class="fs-4 fw-bold c-orange">125</p>
+                <p class="c-grey">Projects</p>
+              </div>
+              <div class="d-flex flex-column">
+                <p class="fs-4 fw-bold c-orange">$123</p>
+                <p class="c-grey">Total Revenue</p>
+              </div>
+            </div>
+            <div class="d-flex justify-content-end">
+              <button class="view-insights px-3 py-3">VIEW INSIGHTS <img src="./images/SPARK-ICN.svg" alt=""></button>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-
-    <!-- Main -->
-
-    <main>
-      <div class="container">
-        <div class="left"></div>
-        <div class="calender"></div>
-        <div class="bottom-left"></div>
-        <div class="bottom-right"></div>
+      <div class="calender">
+        <button class="btn btn-outline-primary cal-btn"><i class="far fa-calendar-alt fa-lg pe-2"></i>CALENDER <i
+            class="fas fa-chevron-down ps-2"></i></button>
       </div>
-    </main>
+
+      <!-- Bottom Left -->
+      <div class="bottom-left d-flex flex-column">
+        <div class="d-flex flex-column justify-content-evenly px-4 pt-4">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex flex-column ">
+              <p class="fs-18 fw-700 c-orange mb-0">Kick Off Session</p>
+              <p><span class="fs-14 c-grey">15 mints, One on One</span></p>
+            </div>
+            <div>
+              <i class="far fa-2x fa-edit"></i>
+            </div>
+          </div>
+
+          <div class="mb-2">
+            <img class="g-meet-img" src="./images/gmeet-icn.png" alt=""><span class="fs-14">Google Meet Conference</span>
+          </div>
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
+          <a href="#" class="fs-18 c-blue">View Event Page</a>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        </div>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+        <div class="hr my-3"></div>
+
+        <div class="d-flex px-4 align-items-center">
+          <img class="copy-img" src="./images/copy-icn.png" alt=""><p class="c-blue mb-0 ms-2"> Copy Link</p> 
+          <img class="icn-sz ms-auto" src="./images/share-icn.png" alt="">
+        </div>
+
+        
+      </div>
+
+      <!-- Bottom Right -->
+      <div class="bottom-right d-flex flex-column">
+        <div class="d-flex flex-column justify-content-evenly px-4 pt-4">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex flex-column ">
+              <p class="fs-18 fw-700 c-orange mb-0">Long Off Session</p>
+              <p><span class="fs-14 c-grey">30 mints, One on One</span></p>
+            </div>
+            <div>
+              <i class="far fa-2x fa-edit"></i>
+            </div>
+          </div>
+
+          <div class="mb-2">
+            <img class="g-meet-img" src="./images/gmeet-icn.png" alt=""><span class="fs-14">Google Meet Conference</span>
+          </div>
+
+
+          <a href="#" class="fs-18 c-blue">View Event Page</a>
+
+        </div>
+
+        <div class="hr my-3"></div>
+
+        <div class="d-flex px-4 align-items-center">
+          <img class="copy-img" src="./images/copy-icn.png" alt=""><p class="c-blue mb-0 ms-2"> Copy Link</p> 
+          <img class="icn-sz ms-auto" src="./images/share-icn.png" alt="">
+        </div>
+
+        
+      </div>
+    </div>
+  </main>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
