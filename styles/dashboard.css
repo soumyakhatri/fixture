@@ -157,12 +157,12 @@ nav .p2{
 
 @media (max-width:575px) {
     .p-g{
-        margin-right: 10px;
-        font-size: 14px;
+        margin-right: 7px;
+        font-size: 15px;
     }
 
     .btn-create{
-        font-size: 14px!important;
+        font-size: 15px!important;
     }
 
     .navbar-brand img{
@@ -215,6 +215,10 @@ nav .p2{
     .navbar-brand img{
         width: 51px;
         height: 30px;
+    }
+
+    .calender form{
+        width: 40%;
     }
 }
 
