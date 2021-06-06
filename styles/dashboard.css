@@ -166,6 +166,53 @@ nav .p2{
         width: 75px;
         height: 37.5px;
     }
+
+    .user-img-div{
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .user-img-div img{
+        width: 100%;
+    }
+
+    .around-icon{
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        margin-right: 5px;
+        /* display: grid; */
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .around-icon i{
+        position: relative;
+        bottom: 4px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .num{
+        border-radius: 50%;
+        width: 7px;
+        height: 7px;
+        background-color: #FF7F00;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        position: absolute;
+        top: 60px;
+        margin-left: 7px;
+    }
+
+    .num span{
+        font-size: 6px;
+        color: white;
+        position: relative;
+        top: 0.6px;
+    }
 }
 
 /* Main */
