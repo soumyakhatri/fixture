@@ -242,6 +242,10 @@ p.user-name{
     font-size: 18px;
 }
 
+.left-bottom-left {
+    margin-top: -70px;
+}
+
 /* Bottom Left */
 
 .bottom-left{
@@ -282,7 +286,7 @@ p.user-name{
     background-color: #fff;
     border-radius: 10px;
     border-top-style:none;
-    border-bottom-color: #F19502;
+    border-bottom-color: #B302F1;
     border-bottom-style: solid;
     border-width: 10px!important ;
     height: 272px;
