@@ -263,6 +263,8 @@ p.user-name{
 
 .left-bottom-left {
     margin-top: -70px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /* Bottom Left */
