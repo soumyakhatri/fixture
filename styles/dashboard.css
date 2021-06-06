@@ -361,6 +361,7 @@ p.user-name{
     main .left{
         grid-column: 1/-1;
         grid-row: 2/3;
+        border-radius: 10px;
     }
 
     main .bottom-left{
@@ -376,6 +377,7 @@ p.user-name{
     .left-top{
         padding: 0;
         justify-content: center!important;
+        border-radius: 10px;
     }
 
 }
