@@ -60,6 +60,12 @@ button{
 .copy-link:hover .c-blue{
     color: #0D2CFF;
 }
+
+.copy-link-icn{
+    position: relative;
+    top: 5px;
+}
+
 /* Navbar */
 
 nav{
