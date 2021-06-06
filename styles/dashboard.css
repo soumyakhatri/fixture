@@ -50,6 +50,14 @@ button{
 }
 
 .c-blue{
+    color: #1CA8FF;
+}
+
+.c-blue:hover{
+    color: #0D2CFF;
+}
+
+.copy-link:hover .c-blue{
     color: #0D2CFF;
 }
 /* Navbar */
@@ -190,8 +198,8 @@ main .bottom-right{
 }
 
 .cal-btn{
-    color: #0D2CFF;
-    border-color: #0D2CFF;
+    color: #1CA8FF;
+    border-color: #1CA8FF;
     border-radius: 20px!important;
     border-style: solid;
     font-size: 14px!important;
@@ -205,6 +213,11 @@ i {
 
 .cal-btn:hover i{
     color: #fff;
+    background-color: #1CA8FF;
+}
+
+.cal-btn:hover{
+    background-color: #1CA8FF;   
 }
 
 p.user-name{
