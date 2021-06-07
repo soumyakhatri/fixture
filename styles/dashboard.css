@@ -96,6 +96,10 @@ nav{
     margin-left: 15px;
     margin-right: 15px;
     display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 5px; 
 }
 
 .nav-icon-2{
@@ -119,11 +123,10 @@ nav .p2{
     display: none;
 }
 
-.around-icon{
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-    margin-right: 5px;      
+.burger{
+    position: relative;
+    bottom: 3px;
+    right: 1px;
 }
 
 .around-icon i{
@@ -131,6 +134,34 @@ nav .p2{
     padding: 0;
 }
 
+.burger-a{
+    height: 50px;
+    width: 50px;
+    padding: 14px 6px;
+    border-radius: 10px;
+    position: relative;
+    right: 10px;
+}
+
+.burger-a:hover{
+    background-color: #F4F7FA;
+}
+
+.burger-a:focus {
+    background-color: #F4F7FA;
+}
+
+.around-icon-burger{
+    border-radius: 15px;
+    padding: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
 .num{
     border-radius: 50%;
     width: 15px;
@@ -148,6 +179,57 @@ nav .p2{
     color: white;
     position: relative;
     top: 0.6px;
+}
+
+.menu{
+    position: absolute;
+    top: -100%;
+    right: 9%;
+    border-color:#979797;
+    border-style: solid;
+    border-width: 0.1px;
+    border-radius: 10px;
+    padding: 12px 0;
+    z-index: 0;
+    background-color: white;  
+    display: none;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 14px;
+    display: flex;
+    align-content: center;
+}
+
+.menu i:before{
+    font-size: 20px;
+}
+.flaticon-user:before, .flaticon-group:before{
+    color: #FF7F00;
+}
+.flaticon-rocket:before{
+    color: #54C470;
+}
+
+.animate{
+    transform: translateY(265px);
+    opacity: 1;
+    display: block;
+    position: absolute;
+    right: 9%;
+    transition-duration: 1s;
+}
+
+.menu div:hover{
+    background-color: #F5EDED;
+    color: #FF7F00;
+}
+
+.menu div:hover a{
+    color: #FF7F00;
 }
 
 
@@ -234,6 +316,10 @@ nav .p2{
         margin-right: 5px;      
     }
 
+    .burger-a{
+        border-radius: 5px;
+    }
+
     .around-icon i{
         position: relative;
         padding: 0;
@@ -266,6 +352,9 @@ nav .p2{
     .calender form{
         width: 40%;
     }
+
+    .animate{
+        transform: translateY(175px);}
 }
 
 /* Main */
@@ -539,57 +628,4 @@ p.user-name{
 
 }
 
-.menu{
-    position: absolute;
-    top: -100%;
-    right: 9%;
-    border-color:#979797;
-    border-style: solid;
-    border-width: 0.1px;
-    border-radius: 10px;
-    padding: 12px 0;
-    z-index: 0;
-    background-color: white;  
-    display: none;
-}
 
-.menu a {
-    color: black;
-    text-decoration: none;
-    font-weight: 200;
-    font-size: 14px;
-    display: flex;
-    align-content: center;
-}
-
-.menu i:before{
-    font-size: 20px;
-}
-.flaticon-user:before, .flaticon-group:before{
-    color: #FF7F00;
-}
-.flaticon-rocket:before{
-    color: #54C470;
-}
-
-.animate{
-    /* position: absolute;
-    right: 9%;
-    top: 100%;
-    display: block; */
-    transform: translateY(265px);
-    opacity: 1;
-    display: block;
-    position: absolute;
-    right: 9%;
-    transition-duration: 1s;
-}
-
-.menu div:hover{
-    background-color: #F5EDED;
-    color: #FF7F00;
-}
-
-.menu div:hover a{
-    color: #FF7F00;
-}
