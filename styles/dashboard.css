@@ -274,6 +274,7 @@ main{
     border-width: 1px;
     padding: 5% 9%;
     grid-column-gap: 40px;
+    justify-content: center;
 }
 
 main .left{
@@ -284,6 +285,7 @@ main .left{
     border-color: #fff;
     border-style: solid;
     background-color: #fff;
+   
 }
 
 .left-top{
@@ -312,12 +314,14 @@ main .bottom-left{
     grid-column: 2/3;
     grid-row: 2/3;
     border-width: 1px;
+    min-width: 228px;
 }
 
 main .bottom-right{
     grid-column: 3/4;
     grid-row: 2/3;
     border-width: 1px;
+    min-width: 228px;
 }
 
 .cal-btn{
@@ -370,7 +374,8 @@ p.user-name{
 .view-insights{
     background: rgb(227,197,0);
     background: linear-gradient(125deg, rgba(227,197,0,1) 0%, rgba(248,122,2,1) 100%);
-    font-size: 18px;
+    font-size: 16px;
+    width: 212px;
     /* padding: 10px 20px; */
 }
 
@@ -438,14 +443,19 @@ p.user-name{
     height: 272px;
     align-self: end ;
 }
+@media (max-width:1024px){
+    .grid-main{
+        grid-column-gap: 20px;
+    } 
+}
 
 
-
-@media (max-width:768px) {
+@media (max-width:1000px) {
     .grid-main{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(3, auto);
         grid-row-gap: 40px;
+        grid-column-gap: 40px;
     }
 
     main .calender{
@@ -467,6 +477,10 @@ p.user-name{
         grid-column: 2/3;
         grid-row: 3/4; 
     }
+
+    .left-bottom-right{
+        margin-left: 100px;
+    }
 }
 
 @media (max-width:575px) {
@@ -475,6 +489,7 @@ p.user-name{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, auto);
         grid-row-gap: 40px;
+        grid-column-gap: 40px;
         padding-top: 9%;
     }
 
@@ -503,6 +518,16 @@ p.user-name{
         padding: 0;
         justify-content: center!important;
         border-radius: 10px;
+    }
+    .left-bottom-right{
+        margin-left: 0;
+    }
+
+    .view-insights{
+        font-size: 16px!important;
+        width: 180px;
+        /* padding: 10px 20px; */
+
     }
 
 }
