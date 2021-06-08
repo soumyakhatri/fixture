@@ -195,6 +195,10 @@ nav .p2{
     display: none;
 }
 
+.menu div{
+    width: 100%;
+}
+
 .menu a {
     color: black;
     text-decoration: none;
