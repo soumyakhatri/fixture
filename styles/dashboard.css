@@ -125,8 +125,8 @@ nav .p2{
 
 .burger{
     position: relative;
-    bottom: 3px;
-    right: 1px;
+    bottom: 7px;
+    right: 5px;
 }
 
 .around-icon i{
@@ -318,6 +318,7 @@ nav .p2{
 
     .burger-a{
         border-radius: 5px;
+        background-color: #fff;
     }
 
     .around-icon i{
@@ -603,11 +604,14 @@ p.user-name{
     main .bottom-left{
         grid-column: 1/2;
         grid-row: 3/4;
+        height: 250px;
     }
 
     main .bottom-right{
         grid-column: 1/2;
         grid-row: 4/5; 
+        height: 250px;
+
     }
 
     .left-top{
@@ -620,12 +624,151 @@ p.user-name{
     }
 
     .view-insights{
-        font-size: 16px!important;
-        width: 180px;
+        font-size: 14px!important;
+        width: 160px;
         /* padding: 10px 20px; */
 
     }
 
+    .view-insights img{
+        height: 20px;
+    }
+
 }
 
+.appoint{
+    padding: 5% 9%;
+    background-color: #F2F2F2;
+}
 
+.appoint-container{
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.bottom-border{
+    border-top-width: 2px;
+}
+
+.apt-btn{
+    border-radius: 30px !important;
+    padding: 15px 0;
+    font-size: 18px;
+    color: crimson;
+    width: 198px;
+    position: relative;
+    bottom: 14px;
+}
+
+.apt-btn i{
+    position: relative;
+    left: 13px;
+    top: 2px;
+}
+
+td {
+    font-size: 18px;
+    padding-top: 30px!important;
+    padding-bottom: 0!important;
+}
+
+th{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 30px!important;
+}
+
+.note-td-0{
+    padding-top: 65px!important;
+    padding-bottom: 35px!important;
+}
+
+.td-space{
+    padding-top: 65px!important;
+    padding-bottom: 35px!important;
+}
+
+/* .apt-btn1{
+    background-color: #E6E4F5;
+    color: #1E00FF;
+}
+
+.apt-btn2{
+    background-color: #87FFA5;
+    color: #004912;
+}
+
+.apt-btn3{
+    background-color: #FFF0C6;
+    color:#463D00;
+}
+.apt-btn4{
+    background-color:#FFD1A6;
+    color: #FF0000;
+} */
+
+/* .apt-btn1 i{
+    color: #1E00FF;
+}
+
+.apt-btn2 i{
+    color: #004912;
+}
+
+.apt-btn3 i{
+    color:#463D00;
+}
+.apt-btn4 i{
+    color: #FF0000;
+} */
+
+.tb-user-img-div{
+    border-radius: 50%;
+    width: 49px;
+    height: 49px;
+    background-color:lavenderblush;
+  
+}
+
+.tb-user-div{
+    position: relative;
+    bottom: 10px;
+}
+.tb-user-div1{
+    padding-top: 25px!important;
+}
+
+.apt-btn-dropdown{
+    border-radius: 12px;
+    padding-top: 10px ;
+}
+
+.apt-btn-dropdown li a{
+    padding: 10px 30px;
+}
+
+.apt-btn1{
+    position: relative;
+    top: 20px;
+}
+
+.note-img{
+    display: none;
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+}
+
+.textarea-div{
+    display: none;
+}
+
+.txt-sbmt{
+    background-color: #FF7F00;
+    margin-top: 15px;
+    float: left;
+}
+
+.note-td{
+    width: 250px;
+}
