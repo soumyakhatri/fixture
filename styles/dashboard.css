@@ -24,6 +24,10 @@ h4{
 
 }
 
+.fw-600{
+    font-weight: 600;
+}
+
 .fw-700{
     font-weight: 700px;
 }
@@ -34,6 +38,14 @@ h4{
 
 .fs-14{
     font-size: 14px;
+}
+
+.fs-12{
+    font-size: 12px;
+}
+
+.c-light-grey{
+    color: #A6A6A6!important;
 }
 
 button{
@@ -775,4 +787,29 @@ th{
 
 .note-td{
     width: 250px;
+}
+
+.create-div{
+    width: 255px;
+    background-color: #fff;
+    position: absolute;
+    right: 8%;
+    margin-top: 20px;
+    padding: 15px 0;
+    border-radius: 10px;
+    border-color: #EDEDED;
+    border-width: 1px;
+    border-style: solid;   
+    box-shadow: 1px 5px 5px 1px #EDEDED;
+
+}
+
+
+.create-div-btn-div{
+    padding: 10px 15px;
+
+}
+.create-div-btn-div:hover{
+    background-color: #EBF4FE;
+    cursor: pointer;
 }

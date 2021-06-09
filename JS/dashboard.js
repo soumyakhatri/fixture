@@ -109,6 +109,6 @@ function closeTextArea() {
 
             
         }
-    }
+    } showNoteIcon();
 }
 

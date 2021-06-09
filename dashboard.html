@@ -67,7 +67,7 @@
         <!-- burger icon -->
         <div>
           <div class="ms-4">
-            <button class="btn burger-a" href="#nav-menu"><img  class="burger" src="./images/profile-menu-icn.png"
+            <button class="btn burger-a" href="#nav-menu"><img class="burger" src="./images/profile-menu-icn.png"
                 alt="burger icon"></button>
           </div>
           <!-- menu -->
@@ -92,8 +92,27 @@
     <div class="p-g-ul"><a class="p-g" href="#">Scheduled Events</a></div>
     <div class="p-g-ul"><a class="p-g d-none d-md-block" href="#">Work Flow</a></div>
 
-
-    <button class="ms-auto btn-create">+ Create</button>
+    <div class="ms-auto">
+      <button class=" btn-create pe-3">+ Create</button>
+      <div class="create-div d-flex flex-column justify-content-center">
+        <div class="d-flex create-div-btn-div">
+          <div class="d-flex align-items-start"><img src="./images/service-icn.png" alt=""></div>
+          <div class="d-flex flex-column ms-2">
+            <p class="fs-18 fw-600 mb-1">Create New Service</p>
+            <p class="fs-12 fw-lighter c-light-grey lh-base mb-0">Lorem ipsum dolor sit amet, elit sed 
+              do eiusmod tempor.</p>
+          </div>
+        </div>
+        <div class="d-flex create-div-btn-div">
+          <div class="d-flex align-items-start ms-1 me-2"><img src="./images/client-icn.png" alt=""></div>
+          <div class="d-flex flex-column ms-2">
+            <p class="fs-18 fw-600 mb-1">Add New Client</p>
+            <p class="fs-12 fw-lighter c-light-grey lh-base mb-0">Lorem ipsum dolor sit amet, elit sed 
+              do eiusmod tempor.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 
@@ -240,7 +259,7 @@
 
   <!-- Appointment -->
 
-  <div class="appoint d-none d-md-block" >
+  <div class="appoint d-none d-md-block">
     <div class="appoint-container px-4 py-3">
       <div class="appoint-head py-3 d-flex align-items-center">
         <h2 class="text-uppercase">Upcoming Appointments</h2>
@@ -264,10 +283,14 @@
 
         <tbody class="bottom-border">
           <tr class="">
-            <td class="note-td" scope="row">Chai Pe Charcha <img  class="note-img" src="./images/note-icn.png" alt="note"><div class="form-floating textarea-div">
-              <textarea class="form-control" rows="20" cols="10" placeholder="Note" id="floatingTextarea"></textarea><button class="txt-sbmt" type="submit">Save</button>
-              <label for="floatingTextarea">Note</label>
-            </div></td>
+            <td class="note-td" scope="row">Chai Pe Charcha <img class="note-img" src="./images/note-icn.png"
+                alt="note">
+              <div class="form-floating textarea-div">
+                <textarea class="form-control" rows="20" cols="10" placeholder="Note"
+                  id="floatingTextarea"></textarea><button class="txt-sbmt" type="submit">Save</button>
+                <label for="floatingTextarea">Note</label>
+              </div>
+            </td>
             <td class="td-space">9:15am - 9:30am</td>
             <td>
               <div class="tb-user-div1">
@@ -283,15 +306,19 @@
                       alt="">Confirm</a></li>
                 <li><a class="dropdown-item" href="#"><img class="me-3" src="./images/RESCHEDULE-ICN.png"
                       alt="">Reschedule</a></li>
-                <li><a class="dropdown-item" href="#"><img class="me-2" src="./images/cancel-icn.png" alt="">Cancel</a></li>
+                <li><a class="dropdown-item" href="#"><img class="me-2" src="./images/cancel-icn.png" alt="">Cancel</a>
+                </li>
               </ul>
             </td>
           </tr>
           <tr>
-            <td scope="row" class="note-td">Evaluating The Design  ashagad<img  class="note-img" src="./images/note-icn.png" alt="note"><div class="form-floating textarea-div">
-              <textarea class="form-control" placeholder="Note" id="floatingTextarea"></textarea><button  class="txt-sbmt" type="submit">Save</button>
-              <label for="floatingTextarea">Note</label>
-            </div></td>
+            <td scope="row" class="note-td">Evaluating The Design<img class="note-img" src="./images/note-icn.png"
+                alt="note">
+              <div class="form-floating textarea-div">
+                <textarea class="form-control pt-1" placeholder="Note" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea"></label><button class="txt-sbmt" type="submit">Save</button>
+              </div>
+            </td>
             <td>9:15am - 9:30am</td>
             <td>
               <div class="tb-user-div">
@@ -313,10 +340,14 @@
             </td>
           </tr>
           <tr>
-            <td scope="row" class="note-td">Define The Problem <img  class="note-img" src="./images/note-icn.png" alt="note"><div class="form-floating textarea-div">
-              <textarea class="form-control" placeholder="Note" id="floatingTextarea"></textarea><button  class="txt-sbmt" type="submit">Save</button>
-              <label for="floatingTextarea">Note</label>
-            </div></td>
+            <td scope="row" class="note-td">Define The Problem <img class="note-img" src="./images/note-icn.png"
+                alt="note">
+              <div class="form-floating textarea-div">
+                <textarea class="form-control" placeholder="Note" id="floatingTextarea"></textarea><button
+                  class="txt-sbmt" type="submit">Save</button>
+                <label for="floatingTextarea">Note</label>
+              </div>
+            </td>
             <td>9:14am - 9:30am</td>
             <td>
               <div class="tb-user-div">
@@ -325,8 +356,8 @@
               </div>
             </td>
             <td>Zoom Location</td>
-            <td><button type="button" class="apt-btn apt-btn3 btn dropdown-toggle" data-bs-toggle="dropdown">Rescheduled<i
-                  class="ms-3 fas fa-chevron-down ms-4"></i></button>
+            <td><button type="button" class="apt-btn apt-btn3 btn dropdown-toggle"
+                data-bs-toggle="dropdown">Rescheduled<i class="ms-3 fas fa-chevron-down ms-4"></i></button>
               <ul class="dropdown-menu apt-btn-dropdown">
                 <li><a class="dropdown-item" href="#"><img class="me-3" src="./images/confirm-icn.png"
                       alt="">Confirm</a></li>
@@ -338,10 +369,13 @@
             </td>
           </tr>
           <tr>
-            <td scope="row" class="note-td">The Problem <img  class="note-img" src="./images/note-icn.png" alt="note"><div class="form-floating textarea-div">
-              <textarea class="form-control" placeholder="Note" id="floatingTextarea"></textarea><button  class="txt-sbmt" type="submit">Save</button>
-              <label for="floatingTextarea">Note</label>
-            </div></td>
+            <td scope="row" class="note-td">The Problem <img class="note-img" src="./images/note-icn.png" alt="note">
+              <div class="form-floating textarea-div">
+                <textarea class="form-control" placeholder="Note" id="floatingTextarea"></textarea><button
+                  class="txt-sbmt" type="submit">Save</button>
+                <label for="floatingTextarea">Note</label>
+              </div>
+            </td>
             <td>9:14am - 9:30am</td>
             <td>
               <div class="tb-user-div">
