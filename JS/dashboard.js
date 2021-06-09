@@ -123,5 +123,5 @@ function toggleCreateDropdown(){
 
 
             createBtnDropdown.classList.toggle('animate-create');
-
+            createBtn.classList.toggle('btn-create-style')
 }

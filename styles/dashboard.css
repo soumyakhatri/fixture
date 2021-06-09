@@ -295,16 +295,19 @@ nav .p2{
     border-color: #54C470;
 }
 
-.btn-create:hover{
-    background-color: rgb(24, 145, 54);
-    border-color: #24d651;
-}
-.btn-create:focus{
+.btn-create-style{
     background-color: rgb(24, 145, 54);
     border-color: #24d651;
     border-width: 2px;
     border-style: solid;
 }
+
+
+.btn-create:hover{
+    background-color: rgb(24, 145, 54);
+    border-color: #24d651;
+}
+
 
 
 @media (max-width:575px) {
