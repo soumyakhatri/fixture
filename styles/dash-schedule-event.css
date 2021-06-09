@@ -1,0 +1,477 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100vw;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 54px;
+    color: #FF7F00;
+
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #FF7F00;
+}
+
+
+.fw-600{
+    font-weight: 600;
+}
+
+.fw-700{
+    font-weight: 700px;
+}
+
+.fs-18{
+    font-size: 18px;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+.fs-12{
+    font-size: 12px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-30{
+    font-size: 30px;
+}
+
+.c-light-grey{
+    color: #A6A6A6!important;
+}
+
+button{
+    border-radius: 10px!important;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    font-size: 20px!important;
+}
+.c-grey{
+    color:#979797;
+}
+
+.c-orange{
+    color: #FF7F00;
+}
+
+.c-blue{
+    color: #1CA8FF;
+}
+
+.c-black{
+    color: #000;
+    text-decoration: underline;
+}
+
+.underline{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.c-blue:hover{
+    color: #0D2CFF;
+}
+
+.copy-link:hover .c-blue{
+    color: #0D2CFF;
+}
+
+/* Navbar */
+
+nav{
+    background-color: #fff;
+    padding-right:9%;
+    padding-left: 9%;;
+}
+
+.navbar{
+    position: relative;
+    z-index: 5;
+}
+
+.brand-logo{
+    width: 100px;
+}
+
+.nav-right{
+ justify-content: flex-end;
+}
+
+.around-icon{
+    background-color: #F4F7FA;
+    border-radius: 15px;;
+    padding: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 5px; 
+}
+
+.nav-icon-2{
+    width: 36px;
+    height: 34px;
+}
+
+nav .p1{
+    color: #FF7F00;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+nav .p2{
+    color: #979797;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.burger{
+    position: relative;
+    bottom: 7px;
+    right: 5px;
+}
+
+.around-icon i{
+    position: relative;
+    padding: 0;
+}
+
+.burger-a{
+    height: 50px;
+    width: 50px;
+    padding: 14px 6px;
+    border-radius: 10px;
+    position: relative;
+    right: 10px;
+}
+
+.burger-a:hover{
+    background-color: #F4F7FA;
+}
+
+.burger-a:focus {
+    background-color: #F4F7FA;
+}
+
+.around-icon-burger{
+    border-radius: 15px;
+    padding: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.num{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #FF7F00;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    position: absolute;
+    top: 60px;
+    margin-left: 15px;
+}
+
+.num span{
+    font-size: 10px;
+    color: white;
+    position: relative;
+    top: 0.6px;
+}
+
+.menu{
+    position: absolute;
+    top: -100%;
+    right: 9%;
+    border-style: solid;
+    border-width: 0.1px;
+    border-radius: 10px;
+    padding: 12px 0;
+    z-index: 0;
+    background-color: white;  
+    display: none;
+    border-color: #EDEDED;
+    box-shadow: 1px 5px 5px 1px #EDEDED;
+}
+
+.menu div{
+    width: 100%;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 14px;
+    display: flex;
+    align-content: center;
+}
+
+.menu i:before{
+    font-size: 20px;
+}
+.flaticon-user:before, .flaticon-group:before{
+    color: #FF7F00;
+}
+.flaticon-rocket:before{
+    color: #54C470;
+}
+
+.animate{
+    transform: translateY(265px);
+    opacity: 1;
+    display: block;
+    position: absolute;
+    right: 9%;
+    transition-duration: 1s;
+}
+
+.menu div:hover{
+    background-color: #F5EDED;
+    color: #FF7F00;
+}
+
+.menu div:hover a{
+    color: #FF7F00;
+}
+
+
+/* Navbar Bottom */
+
+.nav-2{
+    padding: 2% 9%;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #FF7F00;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #FF7F00;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+@media (max-width:575px) {
+    .brand-logo{
+        width: 70px;
+    }
+
+    .btn-create{
+        font-size: 15px!important;
+    }
+
+    .navbar-brand img{
+        width: 75px;
+        height: 37.5px;
+    }
+
+    .user-img-div{
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .user-img-div img{
+        width: 100%;
+    }
+
+    .around-icon{
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+        margin-right: 5px;      
+    }
+
+    .burger-a{
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    .around-icon i{
+        position: relative;
+        padding: 0;
+    }
+
+    .num{
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        background-color: #FF7F00;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        position: absolute;
+        top: 35px;
+        margin-left: 15px;
+    }
+
+    .num span{
+        font-size: 6px;
+        color: white;
+        position: relative;
+        top: 0.6px;
+    }
+
+    .navbar-brand img{
+        width: 51px;
+        height: 30px;
+    }
+
+    .animate{
+        transform: translateY(175px);}
+}
+
+main{
+    background-color: #F2F2F2;
+    padding: 6% 9% 10% 9%;
+}
+
+.main-div{  
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 40px;
+    /* box-shadow: 5px 5px 5px 5px #EDEDED; */
+    box-shadow: 0px 2px 100px 1px rgba(182, 182, 182, 0.425);
+    -webkit-box-shadow: 0px 2px 100px 1px rgba(182, 182, 182, 0.425);
+    -moz-box-shadow: 0px 2px 100px 1px rgba(182, 182, 182, 0.425);
+}
+
+.main-div-right{
+    width: 40%;
+}
+
+.illus-img{
+    position: relative;
+    right: 105px;
+}
+
+.color-btn{
+    border-radius: 100%!important;
+    width: 41px;
+    height: 41px;
+}
+
+.c-yellow{
+    background-color: yellow;
+}
+.c-red{
+    background-color: red;
+}
+
+.c-dark-blue{
+    background-color: rgb(56, 56, 155);
+}
+
+.inp-width{
+    width: 100%;
+}
+
+.label-color{
+    color: #717171!important;
+}
+
+/* Create Button */
+
+.btn-create{
+    background-color: #54C470!important;
+    border-color: #54C470!important;
+    padding-left: 37px;
+    padding-right: 37px;
+}
+
+.btn-create-style{
+    background-color: rgb(24, 145, 54);
+    border-color: #24d651;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+.btn-create:hover{
+    background-color: rgb(24, 145, 54)!important;
+    border-color: #24d651!important;
+}
+
+.btn-create-div{
+    margin-top: 63px;
+}
+
+@media (max-width:991px){
+    .main-div-right{
+        width: 100%;
+    }
+}
