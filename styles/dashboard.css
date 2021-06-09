@@ -197,7 +197,6 @@ nav .p2{
     position: absolute;
     top: -100%;
     right: 9%;
-    border-color:#979797;
     border-style: solid;
     border-width: 0.1px;
     border-radius: 10px;
@@ -205,6 +204,8 @@ nav .p2{
     z-index: 0;
     background-color: white;  
     display: none;
+    border-color: #EDEDED;
+    box-shadow: 1px 5px 5px 1px #EDEDED;
 }
 
 .menu div{
@@ -791,17 +792,29 @@ th{
 
 .create-div{
     width: 255px;
-    background-color: #fff;
-    position: absolute;
-    right: 8%;
+    background-color: #fff; 
     margin-top: 20px;
     padding: 15px 0;
     border-radius: 10px;
     border-color: #EDEDED;
+    box-shadow: 1px 5px 5px 1px #EDEDED;
     border-width: 1px;
     border-style: solid;   
-    box-shadow: 1px 5px 5px 1px #EDEDED;
+   
+    display: none;
+    position: absolute;
+    right: -20%;
+}
 
+/* toggle drop down create button */
+.animate-create{
+    display: block;
+    right: 8%;
+}
+
+.animate-create-hide{
+    display: block;
+    right: -10%;
 }
 
 
@@ -813,3 +826,4 @@ th{
     background-color: #EBF4FE;
     cursor: pointer;
 }
+

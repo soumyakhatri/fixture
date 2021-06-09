@@ -109,6 +109,19 @@ function closeTextArea() {
 
             
         }
-    } showNoteIcon();
+    } 
 }
 
+// toggle Create button dropdown
+
+let createBtnDropdown = document.querySelector('.create-div');
+let createBtn = document.querySelector('.btn-create');
+
+createBtn.onclick = toggleCreateDropdown;
+
+function toggleCreateDropdown(){
+
+
+            createBtnDropdown.classList.toggle('animate-create');
+
+}
