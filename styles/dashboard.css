@@ -295,6 +295,17 @@ nav .p2{
     border-color: #54C470;
 }
 
+.btn-create:hover{
+    background-color: rgb(24, 145, 54);
+    border-color: #24d651;
+}
+.btn-create:focus{
+    background-color: rgb(24, 145, 54);
+    border-color: #24d651;
+    border-width: 2px;
+    border-style: solid;
+}
+
 
 @media (max-width:575px) {
     .brand-logo{
@@ -811,12 +822,6 @@ th{
     display: block;
     right: 8%;
 }
-
-.animate-create-hide{
-    display: block;
-    right: -10%;
-}
-
 
 .create-div-btn-div{
     padding: 10px 15px;
