@@ -399,7 +399,7 @@ nav .p2{
     .nav-2-1{
         position: absolute;
         left: 9%;
-        top: 23%;
+        margin-top: 15px;
     }  
 
     .underline{
