@@ -260,6 +260,7 @@ nav .p2{
 
 .nav-2{
     padding: 2% 9%;
+    /* flex-wrap: wrap; */
 }
 
 /* The switch - the box around the slider */
@@ -392,7 +393,28 @@ nav .p2{
     }
 
     .animate{
-        transform: translateY(175px);}
+        transform: translateY(175px);
+    }
+
+    .nav-2-1{
+        position: absolute;
+        left: 9%;
+        top: 11.3%;
+    }  
+
+
+}
+
+@media (max-width:730px){
+    .nav-2{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .nav-2-3{
+        display: flex;
+        justify-content: center;
+    }  
 }
 
 main{
@@ -473,5 +495,13 @@ main{
 @media (max-width:991px){
     .main-div-right{
         width: 100%;
+    }
+
+    .btn-create-div{
+        margin-top: 22px;
+    }
+
+    .btn-create{
+        border-radius: 25px!important;
     }
 }
