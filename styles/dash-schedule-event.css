@@ -401,6 +401,10 @@ nav .p2{
         left: 9%;
         margin-top: 15px;
     }  
+    .nav-2-3{
+        
+        margin-top: -10px;
+    } 
 
     .underline{
         font-size: 18px;
