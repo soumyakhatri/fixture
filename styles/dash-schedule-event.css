@@ -44,6 +44,9 @@ h3{
 .fs-30{
     font-size: 30px;
 }
+.fs-36{
+    font-size: 36px;
+}
 
 .c-light-grey{
     color: #A6A6A6!important;
@@ -71,6 +74,9 @@ button{
 .c-black{
     color: #000;
     text-decoration: underline;
+}
+.c-green{
+    color: #54C470;
 }
 
 .underline{
@@ -540,4 +546,35 @@ main{
     .btn-create{
         border-radius: 25px!important;
     }
+}
+
+/* Congrats */
+
+.congrats{
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 40px;
+}
+.congrats-container{
+    display: none;
+    /* padding: 6% 9% 10% 9%; */
+}
+
+.congrats-btn{
+    border-radius: 35px!important;
+    padding: 15px 52px!important;
+    font-size: 24px!important;
+    letter-spacing: 1px;
+}
+
+.btn1{
+    background-color: #A000D9;
+}
+
+.btn2{
+    background-color: #54C470;
+}
+
+.btn3{
+    background-color: #5468FF;
 }

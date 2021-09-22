@@ -89,11 +89,13 @@
     <!-- navbar bottom -->
 
     <div class="nav-2 d-sm-flex justify-content-between">
-        <div class="nav-2-1 d-sm-flex d-inline-block align-items-center "><i class="fs-24 c-grey fas fa-chevron-circle-left"></i>
+        <div class="nav-2-1 d-sm-flex d-inline-block align-items-center "><i
+                class="fs-24 c-grey fas fa-chevron-circle-left"></i>
             <p class="c-grey fs-24 mb-0 ms-2 d-none d-md-block"> Back</p>
         </div>
         <div class="nav-2-2 d-inline-block">
-            <h2 class="mb-0 fs-30 underline"><span class="c-black">Add </span>Service <span class="c-black">Details</span></h2>
+            <h2 class="mb-0 fs-30 underline"><span class="c-black">Add </span>Service <span
+                    class="c-black">Details</span></h2>
         </div>
         <div class="nav-2-3 d-flex align-items-center">
             <p class="fs-24 me-2 c-grey mb-0 serv-st">Service Status </p>
@@ -108,57 +110,81 @@
     <!-- Main -->
 
     <main>
-        <div class="d-flex justify-content-md-center main-div">
-            <div class="d-none d-lg-block"><img  class="illus-img mt-5 pt-5" src="./images/Illus2.png" alt="2 women"></div>
-            <div class="main-div-right ms-0">
-                <div class="mb-sm-5 mb-3">
-                    <label for="exampleFormControlInput1" class="form-label fs-24 label-color label-font-14">Service Name *</label>
-                    <input type="text" class="form-control inp-width" id="exampleFormControlInput1"
-                        >
+        <div class="main-container">
+            <div class="d-flex justify-content-md-center main-div">
+                <div class="d-none d-lg-block"><img class="illus-img mt-5 pt-5" src="./images/Illus2.png" alt="2 women">
                 </div>
+                <div class="main-div-right ms-0">
+                    <div class="mb-sm-5 mb-3">
+                        <label for="exampleFormControlInput1" class="form-label fs-24 label-color label-font-14">Service
+                            Name *</label>
+                        <input type="text" class="form-control inp-width" id="exampleFormControlInput1">
+                    </div>
 
 
-                <label for="inputGroupSelect03" class="fs-24 mb-2 label-color label-font-14">Location *</label>
-                <div class="input-group mb-sm-5 mb-3">
-                    <select class="form-select inp-width" id="inputGroupSelect03" aria-label="Example select with button addon">
-                        <option selected>Add a location</option>
-                        <option value="1">Indore</option>
-                        <option value="2">Bhopal</option>
-                        <option value="3">Ujjain</option>
-                    </select>
+                    <label for="inputGroupSelect03" class="fs-24 mb-2 label-color label-font-14">Location *</label>
+                    <div class="input-group mb-sm-5 mb-3">
+                        <select class="form-select inp-width" id="inputGroupSelect03"
+                            aria-label="Example select with button addon">
+                            <option selected>Add a location</option>
+                            <option value="1">Indore</option>
+                            <option value="2">Bhopal</option>
+                            <option value="3">Ujjain</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-sm-5 mb-3">
+                        <label for="exampleFormControlTextarea1"
+                            class="form-label fs-24 label-color label-font-14">About
+                            Service</label>
+                        <textarea class="form-control inp-width" id="exampleFormControlTextarea1"
+                            placeholder="Write a brief which best describes your service...." rows="3"></textarea>
+                    </div>
+
+                    <div class="mb-sm-5 mb-3">
+                        <label for="exampleFormControlInput4" class="form-label fs-24 label-color label-font-14">Custom
+                            Link</label>
+                        <input type="text" class="form-control inp-width" id="exampleFormControlInput4"
+                            placeholder="eg: calendly.com/clippingcop/">
+                    </div>
+
+                    <div>
+                        <p class="fs-24 label-color label-font-14">Service Color</p>
+                        <button class="color-btn c-yellow me-2"></button>
+                        <button class="color-btn c-red me-2"></button>
+                        <button class="color-btn c-dark-blue me-2"></button>
+                        <button class="color-btn c-grey"></button>
+
+                    </div>
+
                 </div>
-
-                <div class="mb-sm-5 mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label fs-24 label-color label-font-14">About Service</label>
-                    <textarea class="form-control inp-width" id="exampleFormControlTextarea1" placeholder="Write a brief which best describes your service...." rows="3"></textarea>
-                </div>
-
-                <div class="mb-sm-5 mb-3">
-                    <label for="exampleFormControlInput4" class="form-label fs-24 label-color label-font-14">Custom Link</label>
-                    <input type="text" class="form-control inp-width" id="exampleFormControlInput4"
-                        placeholder="eg: calendly.com/clippingcop/">
-                </div>
-
-                <div>
-                    <p class="fs-24 label-color label-font-14">Service Color</p>
-                    <button class="color-btn c-yellow me-2"></button>
-                    <button class="color-btn c-red me-2"></button>
-                    <button class="color-btn c-dark-blue me-2"></button>
-                    <button class="color-btn c-grey"></button>
-                    
-                </div>
-
+            </div>
+            <div class="btn-create-div d-flex justify-content-center">
+                <button class="btn-create py-2">CREATE</button>
             </div>
         </div>
 
-        <div class="btn-create-div d-flex justify-content-center">
-            <button class="btn-create py-2">CREATE</button>
+        
+
+        <div class="congrats-container">
+            <div class="congrats d-flex flex-column align-items-center">
+                <p class="fs-36 c-orange">Congratulations!!</p>
+                <img src="./images/Illus-3.png" alt="woman congratulating man">
+                <p class="c-grey fs-18">You have successfully created an event.</p>
+                <p class="c-green fs-14"><span>https://calendly.com/clippingcop/asdsa</span></p>
+            </div>
+
+            <div class="d-flex justify-content-between px-5 py-3 my-5">
+                <button class="btn1 congrats-btn">Invitee Questions</button>
+                <button class="btn2 congrats-btn">Confirmation Page</button>
+                <button class="btn3 congrats-btn">Collect Payments</button>
+            </div>
         </div>
     </main>
 
-    
 
-    
+
+
 
 
 
@@ -176,6 +202,7 @@
   -->
 
     <script src="./JS/dashboard.js"></script>
+    <script src="./JS/add-service-dashboard.js"></script>
 </body>
 
 </html>
